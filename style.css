@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'gost';
+    src: url(GOST_A.TTF);
+}
+*{
+    font-family: gost;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(199, 199, 199);
+    top:0px
+}
+main{
+    margin-top: 75px;
+    padding: 10px;
+    background-color: rgb(245, 250, 247);
+}
+footer{
+    padding-top: 1.5%;
+    text-align: center;
+     height: 60px;
+    background-color: rgb(240, 245, 242);
+}
+.imgPost{
+    width: 17%;
+}
+.post{
+    margin-top: 20px;
+    display: flex;
+}
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 26px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
